@@ -78,7 +78,7 @@ const months = [
   'December'
 ];
 
-let htmlTag = '<time datetime="YYYY-MM-DD">${dueDate.toDateString()}</time>'
+let htmlTag = `<time datetime="YYYY-MM-DD">${dueDate.toDateString()}</time>`;
 
 // 10. log this value using console.log
 console.log(htmlTag);
